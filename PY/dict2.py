@@ -8,7 +8,7 @@ Neo edit
 
 
 def main():
-	stu = {'name': 'neo', 'age': 41, 'gender': True}
+	stu = {'name': 'neo', 'age': 41, 'gender': True,'hobby':'tennis'}
 	print(stu)
 	print(stu.keys())
 	print(stu.values())
