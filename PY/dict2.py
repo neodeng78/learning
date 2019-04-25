@@ -3,7 +3,7 @@
 字典的常用操作
 
 Neo edit
-
+verson 2.0
 """
 
 
@@ -13,6 +13,7 @@ def main():
 	print(stu.keys())
 	print(stu.values())
 	print(stu.items())
+
 	for elem in stu.items():
 		print(elem)
 		print(elem[0], elem[1])
