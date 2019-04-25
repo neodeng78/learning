@@ -1,10 +1,7 @@
 """
-
 双色球随机选号程序
-
-Version: 0.1
+Version: 1
 Neo
-
 """
 
 from random import randrange, randint, sample
@@ -39,11 +36,10 @@ def random_select():
 	return selected_balls
 
 
-def main():
-	n = int(input('机选几注: '))
-	for _ in range(n):
+n = int(input('机选几注: '))
+for _ in range(n):
 		display(random_select())
 
 
-if __name__ == '__main__':
-	main()
+
+
