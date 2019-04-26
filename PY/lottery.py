@@ -2,6 +2,10 @@
 双色球随机选号程序
 Version: 1
 Neo
+使用
+index #help(str.index)
+sample#help(random,sample)
+
 """
 
 from random import randrange, randint, sample
