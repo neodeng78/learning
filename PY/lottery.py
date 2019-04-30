@@ -1,15 +1,16 @@
 """
 双色球随机选号程序
-Version: 1
+Version: 2
 Neo
 使用
 index #help(str.index)
 sample#help(random,sample)
-
+out come to a file data.out
 """
 
 from random import randrange, randint, sample
 
+out=open('data.out','w')
 
 def display(balls):
 	"""
@@ -18,7 +19,8 @@ def display(balls):
 	for index, ball in enumerate(balls):
 		if index == len(balls) - 1:
 			print('|', end=' ')
-		print('%02d' % ball, end=' ')
+		print('%02d' % ball, end=' ',file=out)
+
 	print()
 
 
@@ -43,6 +45,8 @@ def random_select():
 n = int(input('机选几注: '))
 for _ in range(n):
 		display(random_select())
+
+out.close()
 
 
 
