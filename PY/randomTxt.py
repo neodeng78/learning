@@ -3,7 +3,7 @@ Python使用random.sample生成随机数字
 Version: 1
 Neo
 #str.join(sequence)
-
+#string.ascii_letters version python3.7
 """
 import random
 import string
