@@ -1,7 +1,7 @@
 import urllib.request
 import random
 
-url="https://baidu.com"
+url="https://zh.wikipedia.org/wiki/%E6%9C%89%E8%BD%A8%E7%94%B5%E8%BD%A6%E9%9A%BE%E9%A2%98"
 #模拟请求头
 headers={
     "Accept": "application/json, text/javascript, */*; q=0.01",
